@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ullagaram-sai-samithi/static/css/main.ace79221.css",
+    "main.css": "/ullagaram-sai-samithi/static/css/main.93c2b293.css",
     "main.js": "/ullagaram-sai-samithi/static/js/main.388acb51.js",
     "static/js/453.7447a82e.chunk.js": "/ullagaram-sai-samithi/static/js/453.7447a82e.chunk.js",
     "static/media/photo.png": "/ullagaram-sai-samithi/static/media/photo.113eb8ac22ad9c1e4be6.png",
     "static/media/logo.png": "/ullagaram-sai-samithi/static/media/logo.a0423c3b4b8b3ab4e103.png",
     "index.html": "/ullagaram-sai-samithi/index.html",
-    "main.ace79221.css.map": "/ullagaram-sai-samithi/static/css/main.ace79221.css.map",
+    "main.93c2b293.css.map": "/ullagaram-sai-samithi/static/css/main.93c2b293.css.map",
     "main.388acb51.js.map": "/ullagaram-sai-samithi/static/js/main.388acb51.js.map",
     "453.7447a82e.chunk.js.map": "/ullagaram-sai-samithi/static/js/453.7447a82e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ace79221.css",
+    "static/css/main.93c2b293.css",
     "static/js/main.388acb51.js"
   ]
 }
