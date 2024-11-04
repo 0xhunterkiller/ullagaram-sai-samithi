@@ -31,7 +31,7 @@ function Announcements() {
   };
 
   return (
-    <section className="announcements-section vertical-scroll">
+    <section id="announcements" className="announcements-section vertical-scroll">
       <h2>News and Announcements</h2>
       <div>
         {announcements.map((announcement) => (
