@@ -1,0 +1,17 @@
+.single-announcement {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .single-announcement:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .single-announcement:focus {
+    outline: 2px solid #333;
+  }
+  

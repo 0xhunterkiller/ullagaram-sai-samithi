@@ -1,0 +1,12 @@
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .horizontal-scroll > * {
+    scroll-snap-align: start;
+    min-width: 300px; /* Adjust as needed */
+  }

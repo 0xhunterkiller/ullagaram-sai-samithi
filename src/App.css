@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.horizontal-section {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: stretch; /* Ensures both sections have equal height */
+}
+
+.thought-section {
+  flex: 0 0 40%; /* 40% width */
+  max-height: 200px; 
+  overflow: hidden;
+}
+
+.announcements-section {
+  flex: 0 0 60%; /* 60% width */
+  max-height: 400px; /* Match the height of the thought section */
+  overflow-y: auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

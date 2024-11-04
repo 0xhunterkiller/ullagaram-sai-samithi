@@ -1,0 +1,11 @@
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .video-frame {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+  }
+  

@@ -1,0 +1,12 @@
+.sai-photo {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+  }
+  

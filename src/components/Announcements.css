@@ -1,0 +1,11 @@
+.announcements-section {
+  max-height: 100%; /* Matches the height of the ThoughtOfTheDay section */
+  overflow-y: auto; /* Enables vertical scrolling */
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.vertical-scroll {
+  max-height: 500px; /* Set this to match your layout needs */
+  overflow-y: auto;
+}
