@@ -12,4 +12,20 @@
     color: black;
     font-size: 1.2rem;
   }
-  
+
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 5px;
+  }
+
+  ul {
+    flex-direction: column; /* Stacks navigation links vertically */
+    align-items: center;
+    gap: 10px; /* Adds space between vertical items */
+  }
+
+  li a {
+    font-size: 1rem; /* Smaller font for smaller screens */
+  }
+}

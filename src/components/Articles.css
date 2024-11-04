@@ -5,3 +5,13 @@ section {
     font-size: 1.5rem;
     color: black;
   }
+
+  @media (max-width: 768px) {
+    section {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.2rem; /* Slightly smaller font for smaller screens */
+    }
+  }

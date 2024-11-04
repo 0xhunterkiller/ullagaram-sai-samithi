@@ -55,3 +55,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .horizontal-section {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .thought-section, .announcements-section {
+    max-height: none; /* Allow height to adjust naturally */
+  }
+}
+
+/* Styling for articles and videos on smaller screens */
+.article-container, .video-container {
+  display: block; /* Ensure a vertical layout */
+  padding: 10px;
+}
+
+.article-container article, .video-container iframe {
+  width: 100%; /* Full width on smaller screens */
+  margin-bottom: 15px;
+}

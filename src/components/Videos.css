@@ -1,11 +1,24 @@
 .video-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* Ensure videos are spaced well */
+}
+
+.video-frame {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 768px) {
   .video-frame {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
+    max-width: 100%; /* Full width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
   }
-  
+
+  .video-grid {
+    gap: 10px; /* Reduced gap for smaller screens */
+    flex-direction: column; /* Display videos in a single column */
+  }
+}

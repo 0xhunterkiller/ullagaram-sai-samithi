@@ -7,4 +7,11 @@ ul {
     color: black;
     margin: 5px 0;
   }
-  
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  li {
+    font-size: 0.9rem; /* Slightly smaller font for better fit */
+    margin: 3px 0;
+  }
+}
